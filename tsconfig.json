@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",  //Corrected baseUrl
+    "paths": {
+      "*": ["./*"]       //Corrected paths
+    }
+  },
+  "include": ["./src/**/*"] //Added include to explicitly include src folder
+}
